@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>editarprofesional</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="https://nana.pe/assets/images/Header/header-bg.jpg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="crearcapacitacion.html">Capacitación</a></li>
+                <li><a href="crearusuario.html">Crear Usuarios</a></li>
+                <li><a href="listadousuarios.html">Usuarios</a></li>
+                <li><a href="listarcapacitaciones.html">Lista de Capacitaciones</a></li>
+            </ul>            
+        </nav>
+        <h1>Editar Profesional</h1>
+    </header>
+
+    <main>
+        <form>
+            <label><b>RUN Profesional:</b></label>
+            <br>
+            <input type="text" name="runadministrativo">
+            <br><br>
+            <label><b>Nombres:</b></label>
+            <br>
+            <input type="text" name="nombres">
+            <br><br>
+            <label><b>Apellidos:</b></label>
+            <br>
+            <input type="text" name="apellidos">
+            <br><br>
+            <label><b>Teléfono:</b></label>
+            <br>
+            <input type="text" name="telefono">
+            <br><br>
+            <label><b>Titulo Profesional:</b></label>
+            <br>
+            <input type="text" name="tituloprofesional">
+            <br><br>
+            <label><b>Proyecto:</b></label>
+            <br>
+            <input type="text" name="proyecto">
+            <br><br>
+            <input type="reset" value="Limpiar" style="color:blue;text-decoration-line: underline;background: none; border: none;">
+            <input type="submit" value="Guardar" > 
+        </form>
+    </main>
+    
+    <footer>        
+        <p>© 2020 Los Triggers, Inc.</p> 
+    </footer>
+    
+</body>
+
+</html>
+
+<!--este formulario permite modificar los datos de un usuario de tipo profesional. 
+Debe considerar en ello los campos RUN profesional, nombres y apellidos de este, el teléfono, 
+el título profesional y el nombre del proyecto en el que se desempeña. Para acceder a esta página 
+lo debe hacer a través del listado de usuarios, en el ícono “Editar usuario”, siempre que este último 
+sea de tipo profesional.

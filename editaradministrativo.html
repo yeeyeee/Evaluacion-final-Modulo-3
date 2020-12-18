@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>editaradministrativo</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="https://nana.pe/assets/images/Header/header-bg.jpg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="crearcapacitacion.html">Capacitación</a></li>
+                <li><a href="crearusuario.html">Crear Usuarios</a></li>
+                <li><a href="listadousuarios.html">Usuarios</a></li>
+                <li><a href="listarcapacitaciones.html">Lista de Capacitaciones</a></li>
+            </ul>            
+        </nav>
+        <h1>Editar Administrativo</h1>
+    </header>
+
+    <main>
+        <form>
+            <label><b>RUN Administrativo:</b></label>
+            <br>
+            <input type="text" name="runadministrativo">
+            <br>
+            <label><b>Nombres:</b></label>
+            <br>
+            <input type="text" name="nombres">
+            <br>
+            <label><b>Apellidos:</b></label>
+            <br>
+            <input type="text" name="apellidos">
+            <br>
+            <label><b>Email:</b></label>
+            <br>
+            <input type="text" name="email">
+            <br>
+            <br>
+            <label><b>Nombre del Area:</b></label>
+            <br>
+            <input type="text" name="RUN" placeholder="Administrativo, Profesional o Cliente">
+            <br><br>
+            <input type="reset" value="Limpiar" style="color:blue;text-decoration-line: underline;background: none; border: none;">
+            <input type="button" value="Guardar" style="color:white; background-color:darkred;"> 
+        </form>
+    </main>
+    
+    <footer>        
+        <p>© 2020 Los Triggers, Inc.</p> 
+    </footer>
+    
+</body>
+</html>
+
+<!--este formulario permite modificar los datos de un usuario de tipo administrativo. 
+Debe considerar en ello los campos RUN administrativo, nombres y apellidos del administrativo, 
+correo electrónico y nombre de área a la que pertenece. Para acceder a esta página lo debe hacer a 
+través del listado de usuarios, en el ícono “Editar usuario”, siempre que este último sea de tipo
+ administrativo.

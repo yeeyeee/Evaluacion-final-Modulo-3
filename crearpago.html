@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>Crear Pagos</title>
+</head>
+<body>
+<header class="base">
+    <div>
+        <img src="https://nana.pe/assets/images/Header/header-bg.jpg">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="crearcapacitacion.html">Capacitación</a></li>
+            <li><a href="crearusuario.html">Crear Usuarios</a></li>
+            <li><a href="listadousuarios.html">Usuarios</a></li>
+            <li><a href="listarcapacitaciones.html">Lista de Capacitaciones</a></li>
+            <li><a href="listadovisitas.html">Lista de Visitas</a></li>
+            <li><a href="agregarpago.html">Agregar Pago</a></li>
+        </ul>            
+    </nav>
+    <h1>Crear Pagos</h1>
+</nav>
+<main>
+    <form >
+        <label >Monto del Pago:</label>
+        <input type="text" name="montoPago" id="montoPago"  >
+        <br><br>
+        <label >Mes del Pago:</label>
+        <input type="text" name="mesPago" id="mesPago" >
+        <br><br>
+        <label >Año del Pago:</label>
+        <input type="text" name="anhoPago" id="anhoPago"  >
+        <br><br>          
+        <label>Rut del Cliente:</label>        
+        <input type="text" name="rut" id="rutCliente"  ><br><br>
+        <input type="reset" value="Limpiar" ><br><br> 
+        <input type="submit" name="enviar" value="Enviar" onclick="validarArray();">
+    </form>
+    
+</main>
+<footer>        
+    <p>© 2020 Los Triggers, Inc.</p> 
+    <img class =redes src="https://www.pngkey.com/png/full/116-1166712_logos-redes-sociales-png-iconos-de-redes-sociales.png" >  
+</footer>
+<script src="javascript/javascript.js" type="text/javascript">validarArray()</script>
+</body>
+
+</html>
