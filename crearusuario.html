@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-validation-1.19.2/lib/jquery.js"></script>
+    <script src="jquery-validation-1.19.2/dist/jquery.validate.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>Inicio</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="https://nana.pe/assets/images/Header/header-bg.jpg">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="crearcapacitacion.html">Capacitación</a></li>
+                <li><a href="crearusuario.html">Crear Usuarios</a></li>
+                <li><a href="listadousuarios.html">Usuarios</a></li>
+                <li><a href="listarcapacitaciones.html">Lista de Capacitaciones</a></li>
+            </ul>            
+        </nav>
+        <h1>Crear Usuario</h1>
+    </header>
+
+    <main>
+        <form class="cmxform" id="crearusuario" method="get" action="" align=center>
+            <label><b>Nombres:</b></label>
+            <br>
+            <input type="text" name="nombre">
+            <br>
+            <label><b>Apellidos:</b></label>
+            <br>
+            <input type="text" name="apellido">
+            <br>
+            <label><b>Fecha de Nacimiento:</b></label>
+            <br>
+            <input type="text" name="fechadenacimiento">
+            <br>
+            <label><b>RUN:</b></label>
+            <br>
+            <input type="text" name="RUN">
+            <br>
+            <br>
+            <label><b>Tipo de Usuario:</b></label>
+            <br>
+            <input type="text" name="RUN" placeholder="Administrativo, Profesional o Cliente">
+            <br><br>
+            <input type="reset" value="Limpiar" style="color:blue;text-decoration-line: underline;background: none; border: none;">
+            <input type="submit" value="Guardar" > 
+        </form>
+    </main>
+
+    
+    <footer>        
+        <p>© 2020 Los Triggers, Inc.</p> 
+    </footer>
+
+    
+
+</body>
+</html>
+
+<!--Este formulario permitirá crear un usuario en sistema; 
+para ello debe solicitar los nombres, los apellidos, la fecha de nacimiento, 
+el RUN y el tipo de usuario que se desea registrar.
